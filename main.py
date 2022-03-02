@@ -9,7 +9,7 @@ if __name__ == "__main__":
 
     records_res = db.display_all_records()
 
-    # print(records_res)
+    print(records_res)
 
     new_batch = Batch()  
     new_batch.b_id = input("Enter Batch Id: ")
